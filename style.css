@@ -1,0 +1,13 @@
+.container {
+    margin-top: 50px;
+    max-width: 88%;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
