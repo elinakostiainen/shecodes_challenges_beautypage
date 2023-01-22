@@ -1,6 +1,17 @@
+:root {
+    --primary-colour: #333133;
+    --secondary--colour: #F5EADF;
+    --third-colour: #EFC2B1;
+    --fourth-colour: #F9F9FB;
+}
+
+body {
+font-family:'Roboto', sans-serif;
+}
+
 .container {
-    margin-top: 50px;
-    max-width: 88%;
+    margin-top: 16px;
+    max-width: 100%;
 }
 
 .navbar-collapse{
@@ -8,6 +19,90 @@
     justify-content: flex-end;
 }
 
-h1,h2,h3 {
+.brand-logo h2,h3{
+    font-size: smaller;
+    padding: 0px 0px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 20px;
+}
+
+.navbar-brand {
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+.main-header{
+    margin-top: 100px;
+}
+
+
+h1,h2,h3, h4 {
     text-align: center;
+}
+
+.word-spaced {
+    letter-spacing: 0.2rem;
+    font-size: small;
+    font-weight:lighter;
+    line-height: 0px;
+}
+
+.login-button{
+    padding: 4px 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    background: white;
+    color: var(--primary-colour);
+    border: 2px solid var(--primary-colour);
+    transition: all 200ms ease-in-out;
+}
+
+.login-button:hover{
+    color: var(--third-colour);
+    border: 2px solid var(--third-colour);
+    background: white;
+    cursor: pointer;
+}
+
+.shop-now-button{
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: white;
+    background: var(--primary-colour);
+    border: 2px solid var(--primary-colour);
+    transition: all 200ms ease-in-out;
+}
+
+.shop-now-button:hover{
+    color: white;
+    background: var(--third-colour);
+    border: 2px solid var(--third-colour);
+    cursor: pointer;
+}
+
+.video-section {
+    background: var(--secondary--colour);
+    height: 400px;
+    display: flex;
+    position: relative;
+    top: 40px;
+
+}
+.brand-moto {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 98px;
+    left: 150px;
+    font-size: 50px;
+}
+
+.skincare-video {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding-top: 8px;
+    padding-right: 40px;
+    margin-top: 36px;
 }
