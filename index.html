@@ -11,6 +11,7 @@
     <title>Paula's Choice | Beauty Landing Page | Shecodes Challenges</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2bc211a300.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -31,7 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="https://www.paulaschoice.com.au/who-we-are/about-us" target="_blank">About</a>
+                <a class="nav-link" href="https://www.paulaschoice.com/who-we-are/about-us" target="_blank">About</a>
                 <a class="nav-link" href="https://www.paulaschoice-eu.com/frequently-asked-questions/faq.html" target="_blank">FAQ</a>
               </div>
             </div>
@@ -43,12 +44,84 @@
         <br/>
         <div class="text-center mt-1"><button class="login-button">LOGIN</button><button class="shop-now-button">SHOP NOW</button></div>
         <div class="video-section mt-5">
-            <div> <h4 class="brand-moto mt-4"><strong>BEAUTY BEGINS WITH TRUTH</strong></h4></div>
-            <div class="skincare-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/A0uFwOFxunI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>    
-        </div>
-          <p>#1 Best seller & award winning: Skin Perfecting 2% BHA Exfoliator Liquid</p>
+          <div><h3 class="brand-moto d-block d-md-none mt-4 mb-4"><strong>BEAUTY BEGINS WITH TRUTH</strong></h3></div>
+            <div> <h4 class="brand-moto mt-4 d-none d-lg-block"><strong>BEAUTY BEGINS WITH TRUTH</strong></h4></div>
+            <div class="skincare-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/A0uFwOFxunI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>   
+          </div>
+          <br/>
+          <div class="skincare-routine-section mt-5">
+            <h2 class="mb-5">5 step skincare routine</h2>
+            <div class="row">
+              <div class="col-md-6 col-sm-1">
+               <p><strong>STEP ONE: CLEANSE</strong></p>
+               <ul>
+                <li>What: Removes makeup & impurities from face.</li>
+                <li>How: Apply to a wet face & gently apply to face. Then rinse. Repeat as necessary (i.e heavy makeup).</li>
+               </ul>
+              </div>
+              <div class="col-md-6 col-sm-1">
+                <p><strong>STEP TWO: TONE</strong></p>
+                <ul>
+                  <li>What: Depending on type of toner it adds benefits ie. reduce pores or add hydration.</li>
+                  <li>How: Apply with hands or a cotton pad gently pat on face & neck.</li>
+                 </ul>
+              </div>
+              <div class="col-md-6 col-sm-1">
+                <p><strong>STEP THREE: EXFOLIATE</strong></p>
+                <ul>
+                  <li>What: Gently unclog pores, smooth wrinkles & even skin tone.</li>
+                  <li>How: Apply with hands or a cotton pad gently pat on face & neck.</li>
+                 </ul>
+              </div>
+              <div class="col-md-6 col-sm-1">
+                <p><strong>STEP FOUR: TREAT</strong></p>
+                <ul>
+                  <li>What: Depends on skin needs ie. smaller pores, prevent breakouts ect.</li>
+                  <li>How: Apply with hands by using small amount to target areas on face or whole face.</li>
+                 </ul>
+              </div>
+              <div class="col-md-6 col-sm-1">
+                <p><strong>STEP FIVE: MOISTURISE</strong></p>
+                <ul>
+                  <li>What: Hydrates skin & helps retain moisture.</li>
+                  <li>How: Apply a liberal amount to face & neck.</li>
+                  <li>*Don't forget to use a sunscreen daily, especially if your using an exfoliant or other active ingridents.</li>
+                 </ul>
+              </div>
+            </div>
+          </div>
+          <div class="best-seller-section mt-5">
+           <div class="row">
+            <div class="col-md-6 col-sm-1 text-center">
+              <p>#1 Best seller & award winning exfoliate that gently reveals a natural healthy radiance: Skin Perfecting 2% BHA Exfoliator Liquid</p>
+              <br/>
+              <p>★★★★★</p>
+              <p>“This product has dramatically changed my skin for the better! It’s shrunk my problem pores and has significantly increased smoothness and overall brightness of my skin.”
+                —Rae, USA</p>
+            </div>
+            <div class="col-md-6 col-sm-1">
+              <img src="images/exfoliant.jpeg" class="img-fluid"/>
+            </div>
+           </div>
+          </div>
+          <div class="quizzes-section mt-5">
+            <h2 class="mb-4">QUIZZES</h2>
+            <div class="row">
+              <div class="col-md-6 col-sm-1 text-center mb-3">
+                <i class="fa-regular fa-face-smile fa-2xl"></i>
+                <br/>
+                <a class="btn quiz-button mt-2" href="https://www.paulaschoice.com/skin-type-quiz" target="_blank">SKIN QUIZ</a>
+              </div>
+              <div class="col-md-6 col-sm-1 text-center">
+                <i class="fa-solid fa-list-check fa-2xl"></i>
+                <br/>
+                <a class="btn quiz-button mt-2" href="https://www.paulaschoice.com/myroutine" target="_blank">ROUTINE FINDER</a>
+              </div>
+            </div>
+          </div>
         <footer class="text-center mt-5"><small>#1 Paula's Choice skincare</small></footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
+    <script src="https://kit.fontawesome.com/2bc211a300.js" crossorigin="anonymous"></script>
+  </body>
 </html>
