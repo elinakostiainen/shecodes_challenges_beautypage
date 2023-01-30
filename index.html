@@ -103,6 +103,7 @@ footer{
 
 .skincare-routine-section {
   text-align:start;
+  padding: 20px 40px 20px 10px;
 }
 
 .video-section {
@@ -163,7 +164,49 @@ footer{
 
 .collection-img:hover{
     cursor: pointer;
-    border: 2px var(--third-colour) solid;
+}
+
+.fa-1,.fa-2,.fa-3,.fa-4,.fa-5{
+  font-size: 40px;
+  color: var(--fifth-colour);
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border: 1px var(--fifth-colour) solid;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  padding-top: 24px;
+}
+
+.step-name{
+  color: var(--fifth-colour);
+  background: var(--secondary--colour);
+}
+
+.img-wrap:hover .collection-img{
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  top: 90px;
+  width: 150px;
+}
+
+.collection-img{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.img-wrap:hover .resist-text{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.resist-text{
+  background: #145CB7;
+  padding: 40px 40px;
+  border: 2px #145CB7 solid;
+  border-radius: 6px;
+  color: white;
 }
 
 @media (max-width: 414px){
@@ -227,38 +270,57 @@ footer{
           </div>
           <br/>
           <div class="skincare-routine-section mt-5">
-            <h2 class="mb-5">5 step skincare routine</h2>
+            <h2 class="mb-5">YOUR 5 STEP SKINCARE ROUTINE</h2>
             <div class="row">
-              <div class="col-md-6 col-sm-1">
-               <p><strong>STEP ONE: CLEANSE</strong></p>
+              <div class="col-md-3 col-sm-1 text-center">
+                <i class="fa-solid fa-1"></i>
+              </div>
+              <div class="col-md-3 col-sm-1 mb-5">
+                <p><strong>STEP ONE: <span class="step-name">CLEANSE</span></strong></p>
                <ul>
                 <li>What: Removes makeup & impurities from face.</li>
                 <li>How: Apply to a wet face & gently apply to face. Then rinse. Repeat as necessary (i.e heavy makeup).</li>
                </ul>
               </div>
-              <div class="col-md-6 col-sm-1">
-                <p><strong>STEP TWO: TONE</strong></p>
+              <div class="col-md-3 col-sm-1 text-center">
+                <i class="fa-solid fa-2"></i>
+              </div>
+                <div class="col-md-3 col-sm-1 mb-5">
+                <p><strong>STEP TWO: <span class="step-name">TONE</span></strong></p>
                 <ul>
                   <li>What: Depending on type of toner it adds benefits ie. reduce pores or add hydration.</li>
                   <li>How: Apply with hands or a cotton pad gently pat on face & neck.</li>
                  </ul>
               </div>
-              <div class="col-md-6 col-sm-1">
-                <p><strong>STEP THREE: EXFOLIATE</strong></p>
+              <div class="col-md-3 col-sm-1 text-center">
+                <i class="fa-solid fa-3"></i>
+              </div>
+                <div class="col-md-3 col-sm-1 mb-5">
+                <p><strong>STEP THREE: <span class="step-name">EXFOLIATE</span></strong></p>
                 <ul>
                   <li>What: Gently unclog pores, smooth wrinkles & even skin tone.</li>
                   <li>How: Apply with hands or a cotton pad gently pat on face & neck.</li>
                  </ul>
               </div>
-              <div class="col-md-6 col-sm-1">
-                <p><strong>STEP FOUR: TREAT</strong></p>
+              <div class="col-md-3 col-sm-1 text-center">
+                <i class="fa-solid fa-4"></i>
+                </div>
+                <div class="col-md-3 col-sm-1 mb-5">
+                <p><strong>STEP FOUR: <span class="step-name">TREAT</span></strong></p>
                 <ul>
                   <li>What: Depends on skin needs ie. smaller pores, prevent breakouts ect.</li>
                   <li>How: Apply with hands by using small amount to target areas on face or whole face.</li>
                  </ul>
               </div>
-              <div class="col-md-6 col-sm-1">
-                <p><strong>STEP FIVE: MOISTURISE</strong></p>
+              
+            </div>
+
+            <div class="row"> 
+              <div class="col-md-6 col-sm-1 text-center">
+                <i class="fa-solid fa-5"></i>
+              </div>
+              <div class="col-md-6 col-sm-1 mb-5">
+                <p><strong>STEP FIVE: <span class="step-name">MOISTURISE</span></strong></p>
                 <ul>
                   <li>What: Hydrates skin & helps retain moisture.</li>
                   <li>How: Apply a liberal amount to face & neck.</li>
@@ -299,52 +361,52 @@ footer{
           <div class="shop-collection-section">
             <h2 class="mt-5">SHOP COLLECTIONS</h2>
             <div class="row">
-              <div class="col-6 text-center">
-                <a href="https://www.paulaschoice.com/collections/resist" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/764/original/D3DFC9C7-451A-4B44-A4E7-AE558ABB8936.jpeg?1674895713" class="collection-img img-fluid" width="80"/></a>
-                <p><strong>RESIST: ANTI-AGING</strong></p>
+              <div class="img-wrap col-4 text-center">
+                <a href="https://www.paulaschoice.com/collections/resist" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/065/079/original/C830EC07-4F7B-453C-92FC-2D2792FB09C4.jpeg?1675069817" class="collection-img img-fluid" width="100"/></a>
+                <p class="resist-text"><strong>RESIST: ANTI-AGING</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/collections/clear" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/765/original/9C96F5B7-4ABD-4BF6-96FF-21EFFC28032B.jpeg?1674895724
                   " class="collection-img img-fluid" width="80"/></a>
                 <p><strong>CLEAR: BLEMISHES</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/shop-collections/defense" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/763/original/F329A26B-7FB6-48BB-A1E9-16E2B44726AF.jpeg?1674895702" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>DEFENCE: YOUTH PRESERVATION</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/shop-collections/skin-recovery" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/766/original/B1F12C3C-0FFB-48EB-BFD6-8786FEA10589.jpeg?1674895731" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>SKIN RECOVERY: DRY | VERY DRY</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/shop-collections/calm-redness-relief" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/767/original/6107C86E-A23F-40C6-92A2-3FD1BBCD4723.jpeg?1674895741" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>CALM: REDNESS & EXTRA SENSITIVE</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/shop-collections/earth-sourced" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/769/original/F58F9794-BF04-4414-A38F-E21DC27BED5E.jpeg?1674896298" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>EARTH SOURCED: NATURAL</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/omega-complex" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/770/original/5F33D6AE-E402-4A1F-9618-E154F0F1EF18.jpeg?1674896413" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>OMEGA+ COMPLEX: NOURISH</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/shop-collections/clinical" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/771/original/C689A8EF-4789-4923-BE5B-11C9A3C542BD.jpeg?1674896557" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>CLINICAL: ADVANCED AGING</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/shop-collections/skin-balancing" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/777/original/81A194FE-777A-4F98-ABEC-20685399FCAB.jpeg?1674896934" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>SKIN BALANCING: COMBO | OILY</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/collections/exfoliate" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/776/original/57AA6500-07FC-48B5-97CF-424A2AEB09DB.jpeg?1674896899" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>EXFOLIATE: OVERNIGHT GLOW</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/shop-collections/boosters" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/778/original/B672BEB5-1536-42F4-BE2D-01DF67972AF4.jpeg?1674896982" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>BOOSTERS: ENHANCE</strong></p>
               </div>
-              <div class="col-6 text-center">
+              <div class="col-4 text-center">
                 <a href="https://www.paulaschoice.com/skin-care-products/kits-and-sets" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/779/original/011825E1-D6D8-4BD6-9CBA-4D39583DD02C.jpeg?1674896992" class="collection-img img-fluid" width="80"/></a>
                 <p><strong>KITS: CUSTOM OPTIONS</strong></p>
               </div>
