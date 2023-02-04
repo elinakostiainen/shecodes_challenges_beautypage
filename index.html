@@ -50,6 +50,11 @@ font-family:'Roboto', sans-serif;
     margin-top: 100px;
 }
 
+.first-section {
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
 h1,h2,h3, h4 {
     text-align: center;
 }
@@ -111,7 +116,7 @@ footer{
     display: flex;
     position: relative;
     top: 40px;
-
+    border-radius: 10px;
 }
 .brand-moto {
     text-align: center;
@@ -134,6 +139,13 @@ footer{
 .best-seller-section{
     background: var(--secondary--colour);
     padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.ingredient-section {
+  background: var(--secondary--colour);
+  padding: 20px 20px;
+  border-radius: 10px;
 }
 
 .quiz-button{
@@ -182,6 +194,15 @@ footer{
   background: var(--secondary--colour);
 }
 
+.white-section {
+  background: white;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .img-wrap:hover .collection-img{
   visibility: visible;
   opacity: 1;
@@ -196,9 +217,9 @@ footer{
 }
 
 .resist-text{
-  background: #145CB7;
+  background: rgb(20, 92, 183,.5);
   padding: 40px 40px;
-  border: 2px #145CB7 solid;
+  border: 2px rgb(20, 92, 183,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -209,9 +230,9 @@ footer{
 }
 
 .clear-text {
-  background: #2ED5EA;
+  background: rgb(46, 213, 234,.5);
   padding: 40px 40px;
-  border: 2px #2ED5EA solid;
+  border: 2px rgb(46, 213, 234,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -222,9 +243,9 @@ footer{
 }
 
 .defence-text {
-  background: #D7555C;
+  background: rgb(215, 85, 92,.5);
   padding: 40px 40px;
-  border: 2px #D7555C solid;
+  border: 2px rgb(215, 85, 92,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -235,9 +256,9 @@ footer{
 }
 
 .recovery-text {
-  background: #80093E;
+  background: rgb(128, 9, 62,.5);
   padding: 40px 40px;
-  border: 2px #80093E solid;
+  border: 2px rgb(128, 9, 62,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -248,9 +269,9 @@ footer{
 }
 
 .calm-text {
-  background: #9BC1BE;
+  background: rgb(155, 193, 190,.5);
   padding: 40px 40px;
-  border: 2px #9BC1BE solid;
+  border: 2px rgb(155, 193, 190,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -261,9 +282,9 @@ footer{
 }
 
 .natural-text {
-  background: #5BA53F;
+  background: rgb(91, 165, 63,.5);
   padding: 40px 40px;
-  border: 2px #5BA53F solid;
+  border: 2px rgb(91, 165, 63,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -274,9 +295,9 @@ footer{
 }
 
 .complex-text {
-  background: #B3C5E1;
+  background: rgb(179, 197, 225,.5);
   padding: 40px 40px;
-  border: 2px #B3C5E1 solid;
+  border: 2px rgb(179, 197, 225,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -287,9 +308,9 @@ footer{
 }
 
 .clinical-text {
-  background: #A178A6;
+  background: rgb(161, 120, 166,.5);
   padding: 40px 40px;
-  border: 2px #A178A6 solid;
+  border: 2px rgb(161, 120, 166,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -300,9 +321,9 @@ footer{
 }
 
 .balancing-text {
-  background: #008094;
+  background: rgb(0, 128, 148,.5);
   padding: 40px 40px;
-  border: 2px #008094 solid;
+  border: 2px rgb(0, 128, 148,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -313,9 +334,9 @@ footer{
 }
 
 .exfoliate-text {
-  background: #5C5D61;
+  background: rgb(92, 93, 97,.5);
   padding: 40px 40px;
-  border: 2px #5C5D61 solid;
+  border: 2px rgb(92, 93, 97,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -326,9 +347,9 @@ footer{
 }
 
 .booster-text {
-  background: #D9C7BE;
+  background: rgb(217, 199, 190,.5);
   padding: 40px 40px;
-  border: 2px #D9C7BE solid;
+  border: 2px rgb(217, 199, 190,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -339,9 +360,9 @@ footer{
 }
 
 .kits-text {
-  background: #DCCDC4;
+  background: rgb(220, 205, 196,.5);
   padding: 40px 40px;
-  border: 2px #DCCDC4 solid;
+  border: 2px rgb(220, 205, 196,.5) solid;
   border-radius: 6px;
   color: white;
 }
@@ -402,19 +423,20 @@ footer{
             </div>
           </div>
         </nav>
-        <div id="first-section">
+        <div class="first-section">
         <h1 class="main-header"><strong><span class="name-heading"></span> CHOICE</strong></h1>
         <h2 class="word-spaced"><span class="secret-heading"></span>SKINCARE</h2>
         <br/>
         <br/>
         <div class="text-center mt-1"><a class="btn login-button" target="_blank">LOGIN</a> <a class="btn shop-button" href="https://www.paulaschoice.com/" target="_blank">SHOP NOW</a>
         </div>
+      </div>
         <div class="video-section mt-5">
             <div> <h4 class="brand-moto mt-4 d-none d-lg-block"><strong>BEAUTY BEGINS WITH TRUTH</strong></h4></div>
             <div class="skincare-video"><iframe width="560" height="315" src="https://www.youtube.com/embed/A0uFwOFxunI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>   
           </div>
           <br/>
-          <div class="skincare-routine-section mt-5">
+          <div class="skincare-routine-section white-section mt-4">
             <h2 class="mb-5">YOUR 5 STEP SKINCARE ROUTINE</h2>
             <div class="row">
               <div class="col-md-3 col-sm-1 text-center">
@@ -457,9 +479,7 @@ footer{
                   <li>How: Apply with hands by using small amount to target areas on face or whole face.</li>
                  </ul>
               </div>
-              
             </div>
-
             <div class="row"> 
               <div class="col-md-6 col-sm-1 text-center">
                 <i class="fa-solid fa-5"></i>
@@ -474,7 +494,7 @@ footer{
               </div>
             </div>
           </div>
-          <div class="best-seller-section mt-5">
+          <div class="best-seller-section">
            <div class="row">
             <div class="col-md-6 col-sm-1 text-center">
               <p>#1 Best seller & award winning exfoliate that gently reveals a natural healthy radiance: Skin Perfecting 2% BHA Exfoliator Liquid</p>
@@ -490,22 +510,86 @@ footer{
             </div>
            </div>
           </div>
-          <div class="quizzes-section mt-5">
-            <h2 class="mb-4">QUIZZES</h2>
+          <div class="quizzes-section white-section">
+            <h2 class="mb-4 mt-5">TAKE THE QUIZ</h2>
             <div class="row">
-              <div class="col-md-6 col-sm-1 text-center mb-3">
+              <div class="col-md-6 col-sm-1 text-center mb-5">
                 <i class="fa-regular fa-face-smile fa-2xl"></i>
                 <br/>
-                <a class="btn quiz-button mt-2" href="https://www.paulaschoice.com/skin-type-quiz" target="_blank">SKIN QUIZ</a>
+                <a class="btn quiz-button mt-3" href="https://www.paulaschoice.com/skin-type-quiz" target="_blank">SKIN TYPE</a>
               </div>
               <div class="col-md-6 col-sm-1 text-center">
                 <i class="fa-solid fa-list-check fa-2xl"></i>
                 <br/>
-                <a class="btn quiz-button mt-2" href="https://www.paulaschoice.com/myroutine" target="_blank">ROUTINE FINDER</a>
+                <a class="btn quiz-button mt-3" href="https://www.paulaschoice.com/myroutine" target="_blank">ROUTINE FINDER</a>
               </div>
             </div>
           </div>
-          <div class="shop-collection-section">
+          <div class="ingredient-section">
+            <h1 class="mb-5">KEY INGREDIENTS</h1>
+            <div class="row">
+              <div class="col-md-6 col-sm-1 text-center">
+                <h2 class="ingredient mt-2 mb-3"><strong>Niacinamide</strong></h2>
+                <p><strong>Aka: <span class="step-name">Vitamin B3</span></strong></p>
+                <i class="fa-regular fa-circle-check"></i> Improves skin tone & visibly reduces enlarged pores 
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Anti-aging, minimizes pores & soothes
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Antioxidant
+              </div>
+              <div class="col-md-6 col-sm-1 text-center">
+                <h2 class="ingredient mt-4 mb-3"><strong>Salicylic Acid</strong></h2>
+                <p><strong>Aka: <span class="step-name">Beta hydroxy acid (BHA)</span></strong></p>
+                <i class="fa-regular fa-circle-check"></i> Oil solublility makes it effective at reducing breakouts, black/whiteheads
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Anti-acne, anti-aging, reduces blackheads
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Exfoliant
+              </div>
+              <div class="col-md-6 col-sm-1 text-center">
+                <h2 class="ingredient mt-4 mb-3"><strong>Retinol</strong></h2>
+                <p><strong>Aka: <span class="step-name">Vitamin A</span></strong></p>
+                <i class="fa-regular fa-circle-check"></i> Powerhouse ingredient known for improving skin concerns related to signs of aging
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Anti-aging, anti-acne, minimizes pores
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Antioxidant
+              </div>
+              <div class="col-md-6 col-sm-1 text-center">
+                <h2 class="ingredient mt-4 mb-3"><strong>Ascorbic Acid</strong></h2>
+                <p><strong>Aka: <span class="step-name">Vitamin C</span></strong></p>
+                <i class="fa-regular fa-circle-check"></i> Improves skin tone, fine lines & boosts skin's antioxidant supply
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Anti-aging, fade dark spots, even skin tone
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Antioxidant
+              </div>
+              <div class="col-md-6 col-sm-1 text-center">
+                <h2 class="ingredient mt-4 mb-3"><strong>Hyaluronic Acid</strong></h2>
+                <p><strong>Aka: <span class="step-name">Hyaluronate</span></strong></p>
+                <i class="fa-regular fa-circle-check"></i> Restorative abilities boosting skin moisture & defend against moisture loss
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Anti-aging, hydration
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Antioxidant
+              </div>
+              <div class="col-md-6 col-sm-1 text-center">
+                <h2 class="ingredient mt-4 mb-3"><strong>Glycolic Acid</strong></h2>
+                <p><strong>Aka: <span class="step-name">Alpha hydroxy acid (AHA)</span></strong></p>
+                <i class="fa-regular fa-circle-check"></i> Acts as a water-binding agent that sheds dead skin to reveal new skin
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Anti-aging, even skin tone, smooth bumpy skin
+                <br/>
+                <i class="fa-regular fa-circle-check"></i> Exfoliant
+              </div>
+              </div>
+              <br/>
+             <div class="text-center">
+              <h2 class="mt-5 mb-3">WHAT TO FIND OUT MORE?</h2>
+              <a class="btn shop-button mb-5"  href="https://www.paulaschoice.com/ingredient-dictionary" target="_blank">SEARCH HERE</a>
+            </div>
+            </div>
+          <div class="shop-collection-section white-section">
             <h2 class="mt-5">SHOP COLLECTIONS</h2>
             <div class="row">
               <div class="img-wrap col-4 text-center">
@@ -583,10 +667,10 @@ footer{
 
         if (colour === "red"){
           document.body.style.background = 
-        `linear-gradient(143.3deg, rgb(216, 27, 96,.75) 33.1%, rgb(237, 107, 154,.75) 74.9%)`;
+        `linear-gradient(143.3deg, rgb(216, 27, 96) 33.1%, rgb(237, 107, 154) 74.9%)`;
         } else if (colour === "orange"){
           document.body.style.background = 
-        `linear-gradient(113.1deg, rgb(254, 140, 48,.75) 14%, rgb(253, 75, 101,.75) 80.5%, rgb(255, 53, 109,.75) 100.6%)`;
+        `linear-gradient(113.1deg, rgb(254, 140, 48,.9) 14%, rgb(253, 75, 101,.75) 80.5%, rgb(255, 53, 109,.9) 100.6%)`;
         } else if (colour === "yellow"){
           document.body.style.background = 
         `linear-gradient(109.6deg, rgb(255, 219, 47,.75) 11.2%, rgb(244, 253, 0,.75) 100.2%)`;
@@ -601,7 +685,7 @@ footer{
         `radial-gradient(circle at 10% 20%, rgb(186, 190, 245,.75) 0%, rgb(192, 192, 245,.75) 33.1%, rgb(218, 203, 246,.75) 90%)`;
         } else if (colour === "pink"){
           document.body.style.background = 
-        `linear-gradient(179.4deg, rgb(253, 240, 233,.5) 2.2%, rgb(255, 194, 203,.5) 96.2%)`;
+        `linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%)`;
         } else {
           alert("Please try again later and enter one of these colours: red, orange, yellow, green, blue, purple or pink.")
           null();
