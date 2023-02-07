@@ -144,6 +144,22 @@ footer{
     border-radius: 10px;
 }
 
+.animation-glow-text {
+  animation: 4s linear 0s infinite alternate slide;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-50vw);
+    color: black;
+  }
+
+  to {
+    transform: translateX(50vw);
+    color: white;
+  }
+}
+
 .ingredient-section {
   background: var(--secondary--colour);
   padding: 20px 20px;
@@ -496,6 +512,7 @@ footer{
               </div>
             </div>
           </div>
+          <h1 class="mb-5 mt-5 animation-glow-text">EXFOLIATE = GLOW</h1>
           <div class="best-seller-section">
            <div class="row">
             <div class="col-md-6 col-sm-1 text-center">
