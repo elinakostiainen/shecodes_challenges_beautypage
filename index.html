@@ -234,6 +234,10 @@ footer{
   margin-bottom: 10px;
 }
 
+.shop-collection-section {
+  padding: 4px;
+}
+
 .img-wrap:hover .collection-img{
   visibility: visible;
   opacity: 1;
@@ -412,6 +416,12 @@ footer{
   color: var(--third-colour);
 }
 
+@media (max-width: 920px){
+  .collection-links {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 912px){
     .brand-moto{
     left: 140px;
@@ -431,6 +441,13 @@ footer{
     .video-section {
         height: 400px;
     }
+}
+
+@media (max-width: 750px){
+  .collection-links {
+    size: 80px;
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 540px){
@@ -461,7 +478,19 @@ footer{
     .video-section {
         height: 400px;
     }
+
+  .collection-links {
+    font-size: 8px;
+    padding: 4px 2px;
+  }
 }
+
+@media (max-width: 390px){
+  .collection-links {
+    font-size: 2px;
+  }
+}
+
 
 @media (max-width: 280px){
   .skincare-video {
@@ -476,6 +505,10 @@ footer{
     .video-section {
         height: 400px;
     }
+
+    .collection-links {
+    font-size: 4px;
+  }
 }
 
     </style>
@@ -681,7 +714,7 @@ footer{
             </div>
           <div class="shop-collection-section white-section">
             <h2 class="mt-5">SHOP COLLECTIONS</h2>
-            <div class="row">
+            <div class="row collection-links">
               <div class="img-wrap col-4 text-center">
                 <a href="https://www.paulaschoice.com/shop-collections/calm-redness-relief" target="_blank"><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/065/088/original/40DF9B75-1D87-4BA3-9795-B5616B21B97C.jpeg?1675069895" class="collection-img img-fluid" width="100"/></a>
                 <p class="calm-text"><strong>CALM: REDNESS & EXTRA SENSITIVE</strong></p>
