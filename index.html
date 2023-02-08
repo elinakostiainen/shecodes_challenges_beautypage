@@ -144,6 +144,17 @@ footer{
     border-radius: 10px;
 }
 
+.best-seller-img img{
+  border-radius: 10px;
+}
+
+.customer-review {
+  color: var(--fifth-colour);
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .animation-glow-text {
   animation: 4s linear 0s infinite alternate slide;
 }
@@ -390,6 +401,15 @@ footer{
   opacity: 0;
 }
 
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover {
+  color: var(--third-colour);
+}
+
 
 @media (max-width: 414px){
     .brand-moto{
@@ -463,8 +483,8 @@ footer{
               <div class="col-md-3 col-sm-1 mb-5">
                 <p><strong>STEP ONE: <span class="step-name">CLEANSE</span></strong></p>
                <ul>
-                <li>What: Removes makeup & impurities from face.</li>
-                <li>How: Apply to a wet face & gently apply to face. Then rinse. Repeat as necessary (i.e heavy makeup).</li>
+                <li>What: Removes makeup & impurities.</li>
+                <li>How: Gently apply to a wet face & rinse. Repeat as necessary.</li>
                </ul>
               </div>
               <div class="col-md-3 col-sm-1 text-center">
@@ -473,7 +493,7 @@ footer{
                 <div class="col-md-3 col-sm-1 mb-5">
                 <p><strong>STEP TWO: <span class="step-name">TONE</span></strong></p>
                 <ul>
-                  <li>What: Depending on type of toner it adds benefits ie. reduce pores or add hydration.</li>
+                  <li>What: Adds benefits depending on toner ie. reduce pores or add hydration.</li>
                   <li>How: Apply with hands or a cotton pad gently pat on face & neck.</li>
                  </ul>
               </div>
@@ -483,7 +503,7 @@ footer{
                 <div class="col-md-3 col-sm-1 mb-5">
                 <p><strong>STEP THREE: <span class="step-name">EXFOLIATE</span></strong></p>
                 <ul>
-                  <li>What: Gently unclog pores, smooth wrinkles & even skin tone.</li>
+                  <li>What: Gently unclogs pores, smooth wrinkles & even skin tone.</li>
                   <li>How: Apply with hands or a cotton pad gently pat on face & neck.</li>
                  </ul>
               </div>
@@ -493,8 +513,8 @@ footer{
                 <div class="col-md-3 col-sm-1 mb-5">
                 <p><strong>STEP FOUR: <span class="step-name">TREAT</span></strong></p>
                 <ul>
-                  <li>What: Depends on skin needs ie. smaller pores, prevent breakouts ect.</li>
-                  <li>How: Apply with hands by using small amount to target areas on face or whole face.</li>
+                  <li>What: Additional benefits depending on treatment ie. smaller pores, prevent breakouts ect.</li>
+                  <li>How: Apply with hands by using small amount to target areas or whole face. Why? Prevent aging from sun rays.</li>
                  </ul>
               </div>
             </div>
@@ -514,21 +534,26 @@ footer{
           </div>
           <h1 class="mb-5 mt-5 animation-glow-text">EXFOLIATE = GLOW</h1>
           <div class="best-seller-section">
+            <h2 class="mb-4 mt-3">BEST SELLER & AWARD WINNING EXFOLIATE</h2>
            <div class="row">
             <div class="col-md-6 col-sm-1 text-center">
-              <p>#1 Best seller & award winning exfoliate that gently reveals a natural healthy radiance: Skin Perfecting 2% BHA Exfoliator Liquid</p>
+              <h4 class="mt-3">Skin Perfecting 2% BHA Exfoliator Liquid</h4>
               <br/>
-              <p>★★★★★</p>
-              <p>“This product has dramatically changed my skin for the better! It’s shrunk my problem pores and has significantly increased smoothness and overall brightness of my skin.”
-                —Rae, USA</p>
-                <br/>
-                <a class="btn shop-button"  href="https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201.html" target="_blank">SHOP HERE</a>
+             <div class="customer-review">
+              <p class="mt-4 mb-3">★★★★★</p>
+              <p>“This product has dramatically changed my skin for the better! It’s shrunk my problem pores and has significantly increased smoothness and overall brightness of my skin.”</p>
+                <p>—Rae, USA</p>
+             </div>
             </div>
-            <div class="col-md-6 col-sm-1">
+            <div class="col-md-6 col-sm-1 text-center best-seller-img">
               <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/064/768/original/8EA586FC-F3C7-40CC-846A-D4A2E75E5B5F.jpeg?1674895848" class="img-fluid" width="380"/>
             </div>
            </div>
+           <div class="text-center">
+           <h2 class="mt-5 mb-3">WANT A NATURAL HEALTHY RADIANCE?</h2>
+           <a class="btn shop-button mb-5"  href="https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201.html" target="_blank">SHOP HERE</a>
           </div>
+        </div>
           <div class="quizzes-section white-section">
             <h2 class="mb-4 mt-5">TAKE THE QUIZ</h2>
             <div class="row">
@@ -661,7 +686,17 @@ footer{
               </div>
             </div>
           </div>
-        <footer class="text-center mt-5"><small>#1 Paula's Choice skincare</small></footer>
+        <footer class="text-center mt-5">
+          <div class="mb-2 footer-links">
+            <small>
+              <p>
+                <a href="https://www.paulaschoice.com/who-we-are/about-us" target="_blank">About</a> |
+                <a href="https://www.paulaschoice-eu.com/frequently-asked-questions/faq.html" target="_blank">FAQ</a>  
+              </p>
+           </small>
+          </div>
+          <small>#1 Skincare Paula's Choice</small>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2bc211a300.js" crossorigin="anonymous"></script>
